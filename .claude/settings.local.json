@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc -l /Users/sogi/VisualStudioCode/msVncServer/MSmacVNC/src/*.m /Users/sogi/VisualStudioCode/msVncServer/MSmacVNC/src/*.h)",
+      "Bash(xargs -I {} bash -c 'git show {} --name-only | head -20')"
+    ]
+  }
+}
